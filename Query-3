@@ -1,0 +1,17 @@
+query TotalCountAllPeople{
+  
+ film(id:"ZmlsbXM6MQ==") {
+  id,title,speciesConnection {
+    edges {
+      node {
+       id,name, personConnection{
+        totalCount
+         people{
+          id, name, gender
+          }
+         }
+        }
+       } 
+      }
+     }
+    }
