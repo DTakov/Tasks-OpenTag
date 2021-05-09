@@ -1,0 +1,10 @@
+query PersonDroid{
+  
+ person(id:"c3BlY2llczoy"){
+    name,birthYear,homeworld {
+      id,name
+    } eyeColor
+  }
+}
+
+    
