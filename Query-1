@@ -1,0 +1,13 @@
+query SpeciesAnewHope{
+  
+ film(id:"ZmlsbXM6MQ==") {
+  speciesConnection {
+    edges {
+      node {
+       name
+   
+}
+ } 
+  }
+   }
+    }
